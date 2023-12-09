@@ -1,0 +1,20 @@
+@prefix :        <https://w3id.org/riverbench/profiles/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix lib:     <https://w3id.org/riverbench/temp/lib#> .
+@prefix rb:      <https://w3id.org/riverbench/schema/metadata#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix stax:    <https://w3id.org/stax/ontology#> .
+
+:stream-datasets
+    a dcat:DatasetSeries, rb:Profile ;
+    dcterms:identifier "stream-datasets" ;
+    dcterms:title "Streaming datasets (standard)" ;
+    dcterms:description "Streaming datasets (RDF 1.1 standard only)" ;
+    rb:isSupersetOfProfile :stream-named-graphs ;
+    rb:hasDatasetShape [
+        sh:targetClass rb:Dataset ;
+        sh:property lib:propDatasetStream, lib:propRdfStandard ;
+    ] ;
+    rb:hasDistributionShape lib:nodeStreamDistribution
+.

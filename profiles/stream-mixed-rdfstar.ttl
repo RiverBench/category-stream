@@ -1,0 +1,23 @@
+@prefix :        <https://w3id.org/riverbench/profiles/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix lib:     <https://w3id.org/riverbench/temp/lib#> .
+@prefix rb:      <https://w3id.org/riverbench/schema/metadata#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix stax:    <https://w3id.org/stax/ontology#> .
+
+:stream-mixed-rdfstar
+    a dcat:DatasetSeries, rb:Profile ;
+    dcterms:identifier "stream-mixed-rdfstar" ;
+    dcterms:title "Streaming graphs or datasets (RDF-star)" ;
+    dcterms:description "Streaming graphs or datasets (with RDF-star)" ;
+    rb:isSupersetOfProfile 
+        :stream-mixed,
+        :stream-graphs-rdfstar, 
+        :stream-datasets-rdfstar ;
+    rb:hasDatasetShape [
+        sh:targetClass rb:Dataset ;
+        sh:property lib:propGroupedStream, lib:propRdfStar ;
+    ] ;
+    rb:hasDistributionShape lib:nodeStreamDistribution
+.

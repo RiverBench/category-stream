@@ -1,0 +1,15 @@
+@prefix : <https://w3id.org/riverbench/temp#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rb: <https://w3id.org/riverbench/schema/metadata#> .
+
+# This file contains the manually written metadata for the benchmark category.
+# The URI of the category here is temporary. Real URIs are assigned automatically in CI.
+
+:category
+    a rb:Category ;
+    dcterms:conformsTo <https://w3id.org/riverbench/schema/metadata> ;
+    dcterms:identifier "stream" ;
+    dcterms:title "Grouped RDF streaming"@en ;
+    dcterms:description "Benchmark category of generic tasks involving grouped RDF streams (elements are either RDF graphs or RDF datasets). This includes streaming throughput and latency benchmarks."@en ;
+.

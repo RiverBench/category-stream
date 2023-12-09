@@ -1,0 +1,23 @@
+@prefix :        <https://w3id.org/riverbench/profiles/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix lib:     <https://w3id.org/riverbench/temp/lib#> .
+@prefix rb:      <https://w3id.org/riverbench/schema/metadata#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix stax:    <https://w3id.org/stax/ontology#> .
+
+:stream-named-graphs-rdfstar-nonstandard
+    a dcat:DatasetSeries, rb:Profile ;
+    dcterms:identifier "stream-named-graphs-rdfstar-nonstandard" ;
+    dcterms:title "Streaming named graphs (RDF-star, non-standard)" ;
+    dcterms:description "Streaming named graphs (with RDF-star and non-standard extensions)" ;
+    rb:isSupersetOfProfile 
+        :stream-named-graphs-rdfstar, 
+        :stream-named-graphs-nonstandard, 
+        :stream-ts-named-graphs-rdfstar-nonstandard ;
+    rb:hasDatasetShape [
+        sh:targetClass rb:Dataset ;
+        sh:property lib:propNamedGraphStream ;
+    ] ;
+    rb:hasDistributionShape lib:nodeStreamDistribution
+.
