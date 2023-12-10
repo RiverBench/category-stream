@@ -7,7 +7,7 @@
 # The URI of the category here is temporary. Real URIs are assigned automatically in CI.
 
 :category
-    a rb:BenchmarkCategory ;
+    a rb:Category ;
     dcterms:conformsTo <https://w3id.org/riverbench/schema/metadata> ;
     dcterms:identifier "stream" ;
     dcterms:title "Grouped RDF streaming"@en ;
