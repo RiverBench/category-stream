@@ -47,7 +47,7 @@ jobs:
       - name: "Generate documentation"
         run: |
           mkdir doc_out
-          ci-worker category-doc-gen category schema doc_out
+          ci-worker category-doc-gen package_out category schema doc_out
           mv doc_out/category/README.md . || true
           tar -czf release/docs.tar.gz -C doc_out .
 
