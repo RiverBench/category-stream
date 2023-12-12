@@ -8,14 +8,24 @@ on:
   workflow_dispatch: {}
 
 jobs:
-  release:
-    name: "Package and release category"
+  wait:
+    uses: RiverBench/ci-workflows/.github/workflows/wait-for-rate-limit.yaml@main
     # Skip CI if this is the template repository.
     if: github.repository != 'RiverBench/category-template'
+    secrets: inherit
+    with:
+      needed-calls: 200
+
+  release:
+    name: "Package and release category"
+    needs: wait
     runs-on: "ubuntu-latest"
     container: ghcr.io/riverbench/ci-worker:main
-    # Force only one package job to execute at a time, to avoid duplicating work.
-    concurrency: package-category
+    # Force only one package job to execute at a time per ref, to avoid duplicating work.
+    concurrency: 
+      group: package-category-${{ github.ref }}
+      # Cancel any in-progress jobs if a new one is queued.
+      cancel-in-progress: true
     permissions: write-all
 
     steps:
