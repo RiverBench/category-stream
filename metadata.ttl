@@ -13,10 +13,10 @@
     dcterms:title "Grouped RDF streaming"@en ;
     dcterms:description """Benchmark category of generic tasks involving grouped RDF streams (elements are either RDF graphs or RDF datasets). This includes streaming throughput and latency benchmarks.
 
-    ## Test header
+## Test header
 
-    - list 1
-    - list 2
-    
-    [subpage](subpage.md)"""@en ;
+- list 1
+- list 2
+
+[subpage](subpage.md)"""@en ;
 .
