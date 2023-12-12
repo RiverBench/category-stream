@@ -37,8 +37,9 @@ jobs:
 
       - name: "Package the category"
         run: |
+          if [ "$GITHUB_REF_NAME" = "main" ]; then VERSION="dev"; else VERSION="${GITHUB_REF_NAME#v}"; fi
           mkdir package_out
-          ci-worker package-category "${GITHUB_REF_NAME#v}" category main schema package_out
+          ci-worker package-category "${VERSION}" category main schema package_out
 
       - name: "Generate documentation"
         run: |
