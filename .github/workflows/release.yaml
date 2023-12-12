@@ -39,15 +39,15 @@ jobs:
         run: |
           mkdir package_out
           ci-worker package-category "${GITHUB_REF_NAME#v}" category main schema package_out
-          mkdir release
-          mv package_out/tasks/*.* release/
-          mv package_out/profiles/*.* release/
-          mv package_out/category/metadata.* release/
 
       - name: "Generate documentation"
         run: |
           mkdir doc_out
           ci-worker category-doc-gen package_out category schema doc_out
+          mkdir release
+          mv package_out/tasks/*.* release/
+          mv package_out/profiles/*.* release/
+          mv package_out/category/metadata.* release/
           mv doc_out/category/README.md . || true
           tar -czf release/docs.tar.gz -C doc_out .
 
