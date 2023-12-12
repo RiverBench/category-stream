@@ -18,12 +18,12 @@ Full documentation for all versions can be found [on the website](https://w3id.o
 
 Benchmark category of generic tasks involving grouped RDF streams (elements are either RDF graphs or RDF datasets). This includes streaming throughput and latency benchmarks.
 
-    ## Test header
+## Test header
 
-    - list 1
-    - list 2
-    
-    [subpage](subpage.md)
+- list 1
+- list 2
+
+[subpage](subpage.md)
 
 ## Metadata
 
