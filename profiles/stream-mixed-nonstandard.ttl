@@ -9,8 +9,8 @@
 :stream-mixed-nonstandard
     a dcat:DatasetSeries, rb:Profile ;
     dcterms:identifier "stream-mixed-nonstandard" ;
-    dcterms:title "Streaming graphs or datasets (non-standard)" ;
-    dcterms:description "Streaming graphs or datasets (with non-standard extensions)" ;
+    dcterms:title "Streaming graphs or datasets (non-standard)"@en ;
+    dcterms:description "Streaming graphs or datasets (with non-standard extensions)"@en ;
     rb:isSupersetOfProfile 
         :stream-mixed, 
         :stream-graphs-nonstandard,

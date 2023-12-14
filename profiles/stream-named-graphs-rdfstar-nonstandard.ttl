@@ -9,8 +9,8 @@
 :stream-named-graphs-rdfstar-nonstandard
     a dcat:DatasetSeries, rb:Profile ;
     dcterms:identifier "stream-named-graphs-rdfstar-nonstandard" ;
-    dcterms:title "Streaming named graphs (RDF-star, non-standard)" ;
-    dcterms:description "Streaming named graphs (with RDF-star and non-standard extensions)" ;
+    dcterms:title "Streaming named graphs (RDF-star, non-standard)"@en ;
+    dcterms:description "Streaming named graphs (with RDF-star and non-standard extensions)"@en ;
     rb:isSupersetOfProfile 
         :stream-named-graphs-rdfstar, 
         :stream-named-graphs-nonstandard, 

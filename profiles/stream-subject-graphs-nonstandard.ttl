@@ -9,8 +9,8 @@
 :stream-subject-graphs-nonstandard
     a dcat:DatasetSeries, rb:Profile ;
     dcterms:identifier "stream-subject-graphs-nonstandard" ;
-    dcterms:title "Streaming unnamed subject graphs (non-standard)" ;
-    dcterms:description "Streaming unnamed subject graphs (with non-standard extensions)" ;
+    dcterms:title "Streaming unnamed subject graphs (non-standard)"@en ;
+    dcterms:description "Streaming unnamed subject graphs (with non-standard extensions)"@en ;
     rb:isSupersetOfProfile :stream-subject-graphs ;
     rb:hasDatasetShape [
         sh:targetClass rb:Dataset ;

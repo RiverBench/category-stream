@@ -9,8 +9,8 @@
 :stream-named-graphs-nonstandard
     a dcat:DatasetSeries, rb:Profile ;
     dcterms:identifier "stream-named-graphs-nonstandard" ;
-    dcterms:title "Streaming named graphs (non-standard)" ;
-    dcterms:description "Streaming named graphs (with non-standard extensions)" ;
+    dcterms:title "Streaming named graphs (non-standard)"@en ;
+    dcterms:description "Streaming named graphs (with non-standard extensions)"@en ;
     rb:isSupersetOfProfile :stream-named-graphs, :stream-ts-named-graphs-nonstandard ;
     rb:hasDatasetShape [
         sh:targetClass rb:Dataset ;

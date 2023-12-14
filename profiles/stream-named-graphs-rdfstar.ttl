@@ -9,8 +9,8 @@
 :stream-named-graphs-rdfstar
     a dcat:DatasetSeries, rb:Profile ;
     dcterms:identifier "stream-named-graphs-rdfstar" ;
-    dcterms:title "Streaming named graphs (RDF-star)" ;
-    dcterms:description "Streaming named graphs (with RDF-star)" ;
+    dcterms:title "Streaming named graphs (RDF-star)"@en ;
+    dcterms:description "Streaming named graphs (with RDF-star)"@en ;
     rb:isSupersetOfProfile :stream-named-graphs, :stream-ts-named-graphs-rdfstar ;
     rb:hasDatasetShape [
         sh:targetClass rb:Dataset ;

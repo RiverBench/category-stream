@@ -9,8 +9,8 @@
 :stream-subject-graphs
     a dcat:DatasetSeries, rb:Profile ;
     dcterms:identifier "stream-subject-graphs" ;
-    dcterms:title "Streaming unnamed subject graphs (standard)" ;
-    dcterms:description "Streaming unnamed subject graphs (RDF 1.1 standard only)" ;
+    dcterms:title "Streaming unnamed subject graphs (standard)"@en ;
+    dcterms:description "Streaming unnamed subject graphs (RDF 1.1 standard only)"@en ;
     rb:hasDatasetShape [
         sh:targetClass rb:Dataset ;
         sh:property lib:propSubjectGraphStream, lib:propRdfStandard ;

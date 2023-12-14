@@ -9,8 +9,8 @@
 :stream-datasets-rdfstar-nonstandard
     a dcat:DatasetSeries, rb:Profile ;
     dcterms:identifier "stream-datasets-rdfstar-nonstandard" ;
-    dcterms:title "Streaming datasets (RDF-star, non-standard)" ;
-    dcterms:description "Streaming datasets (with RDF-star and non-standard extensions)" ;
+    dcterms:title "Streaming datasets (RDF-star, non-standard)"@en ;
+    dcterms:description "Streaming datasets (with RDF-star and non-standard extensions)"@en ;
     rb:isSupersetOfProfile :stream-datasets-rdfstar, :stream-datasets-nonstandard, :stream-named-graphs-rdfstar-nonstandard ;
     rb:hasDatasetShape [
         sh:targetClass rb:Dataset ;
