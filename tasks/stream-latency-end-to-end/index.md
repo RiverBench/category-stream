@@ -4,4 +4,4 @@ A benchmark task measuring the latency of streaming elements in a grouped RDF st
 
 ## Task description
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl quis tincidunt ultricies, nunc nisl aliquam nunc, quis aliquam nisl nunc eu nisl. Null am sit amet nisi vitae nisl aliquam al iquam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl quis tincidunt ultricies, nunc nisl aliquam nunc, quis aliquam nisl nunc eu nisl. Null am sit amet nisi vitae nisl aliquam al iquam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl quis tincidunt ultricies, nunc nisl aliquam nunc, quis aliquam nisl nunc eu nisl. Null am sit amet nisi vitae nisl aliquam al iquam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl quis tincidunt ultricies, nunc nisl aliquam nunc, quis aliquam nisl nunc eu nisl. Null am sit amet nisi vitae nisl aliquam al iquam.
+**TODO**
