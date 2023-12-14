@@ -7,23 +7,5 @@ on:
 
 jobs:
   validate:
-    name: "Validate category"
-    # Skip CI if this is the template repository.
-    if: github.repository != 'RiverBench/category-template'
-    runs-on: "ubuntu-latest"
-    container: ghcr.io/riverbench/ci-worker:main
-
-    steps:
-      - name: "Checkout category repository"
-        uses: actions/checkout@v4
-        with:
-          path: category
-
-      - name: "Checkout schema repository"
-        uses: actions/checkout@v4
-        with:
-          repository: 'RiverBench/schema'
-          path: schema
-
-      - name: "Validate the dataset"
-        run: ci-worker validate-category category schema
+    uses: RiverBench/ci-workflows/.github/workflows/category-validate.yaml@main
+    secrets: inherit
