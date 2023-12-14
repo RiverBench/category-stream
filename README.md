@@ -18,13 +18,6 @@ Full documentation for all versions can be found [on the website](https://w3id.o
 
 Benchmark category of generic tasks involving grouped RDF streams (elements are either RDF graphs or RDF datasets). This includes streaming throughput and latency benchmarks.
 
-## Test header
-
-- list 1
-- list 2
-
-[subpage](subpage.md)
-
 ## Metadata
 
 ### General information
@@ -33,12 +26,12 @@ Benchmark category of generic tasks involving grouped RDF streams (elements are 
 - **<abbr title="An unambiguous reference to the resource within a given context.">Identifier</abbr>**: `stream`
 - **<abbr title="Version tag of an artifact">Has version</abbr>**: `dev`
 - **<abbr title="Indicates the benchmark suite to which a dataset or profile belongs">In suite</abbr>**: [RiverBench (dev)](https://w3id.org/riverbench/)
-- **HasTask**: [stream-latency-end-to-end (dev)](https://w3id.org/riverbench/tasks/stream-latency-end-to-end/dev)
 - **<abbr title="An established standard to which the described resource conforms.">Conforms To</abbr>**: Metadata ([https://w3id.org/riverbench/schema/metadata](https://w3id.org/riverbench/schema/metadata))
 
 ### Content
 
-- **<abbr title="Indicates benchmark profiles that belong to this benchmark suite.">Has benchmark profile</abbr>**: 
+- **<abbr title="For benchmark categories this property indicates tasks that belong to the category.">Has benchmark task</abbr>**: [stream-latency-end-to-end (dev)](https://w3id.org/riverbench/tasks/stream-latency-end-to-end/dev)
+- **<abbr title="For benchmark categories this property indicates profiles that belong to the category.">Has benchmark profile</abbr>**: 
     - [stream-datasets (dev)](https://w3id.org/riverbench/profiles/stream-datasets/dev)
     - [stream-datasets-nonstandard (dev)](https://w3id.org/riverbench/profiles/stream-datasets-nonstandard/dev)
     - [stream-datasets-rdfstar (dev)](https://w3id.org/riverbench/profiles/stream-datasets-rdfstar/dev)
