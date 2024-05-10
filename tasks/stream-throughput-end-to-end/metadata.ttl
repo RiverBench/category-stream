@@ -1,0 +1,22 @@
+@prefix : <https://w3id.org/riverbench/temp#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rb: <https://w3id.org/riverbench/schema/metadata#> .
+@prefix rbdoc: <https://w3id.org/riverbench/schema/documentation#> .
+
+:task
+    # General information
+    a rb:Task ;
+    dcterms:conformsTo <https://w3id.org/riverbench/schema/metadata> ;
+    dcterms:identifier "stream-throughput-end-to-end" ;
+    dcterms:title "End-to-end streaming throughput"@en ;
+    dcterms:description "A benchmark task measuring the throughput of streaming elements in a grouped RDF stream over the network, including serialization, network communication, and deserialization."@en ;
+
+    # Authors
+    dcterms:creator [
+        foaf:name "Piotr Sowiński" ;
+        foaf:nick "Ostrzyciel" ;
+        foaf:homepage <https://github.com/Ostrzyciel>, <https://orcid.org/0000-0002-2543-9461> ;
+        rbdoc:hasDocWeight 1 ;
+    ]
+.
