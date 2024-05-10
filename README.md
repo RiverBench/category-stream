@@ -30,7 +30,12 @@ Benchmark category of generic tasks involving grouped RDF streams (elements are 
 
 ### Content
 
-- **<abbr title="For benchmark categories this property indicates tasks that belong to the category.">Has benchmark task</abbr>**: [stream-latency-end-to-end (dev)](https://w3id.org/riverbench/tasks/stream-latency-end-to-end/dev)
+- **<abbr title="For benchmark categories this property indicates tasks that belong to the category.">Has benchmark task</abbr>**: 
+    - [stream-compression (dev)](https://w3id.org/riverbench/tasks/stream-compression/dev)
+    - [stream-deserialization-throughput (dev)](https://w3id.org/riverbench/tasks/stream-deserialization-throughput/dev)
+    - [stream-latency-end-to-end (dev)](https://w3id.org/riverbench/tasks/stream-latency-end-to-end/dev)
+    - [stream-serialization-throughput (dev)](https://w3id.org/riverbench/tasks/stream-serialization-throughput/dev)
+    - [stream-throughput-end-to-end (dev)](https://w3id.org/riverbench/tasks/stream-throughput-end-to-end/dev)
 - **<abbr title="For benchmark categories this property indicates profiles that belong to the category.">Has benchmark profile</abbr>**: 
     - [stream-datasets (dev)](https://w3id.org/riverbench/profiles/stream-datasets/dev)
     - [stream-datasets-nonstandard (dev)](https://w3id.org/riverbench/profiles/stream-datasets-nonstandard/dev)
