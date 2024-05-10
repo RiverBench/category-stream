@@ -1,0 +1,22 @@
+@prefix : <https://w3id.org/riverbench/temp#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rb: <https://w3id.org/riverbench/schema/metadata#> .
+@prefix rbdoc: <https://w3id.org/riverbench/schema/documentation#> .
+
+:task
+    # General information
+    a rb:Task ;
+    dcterms:conformsTo <https://w3id.org/riverbench/schema/metadata> ;
+    dcterms:identifier "stream-deserialization-throughput" ;
+    dcterms:title "Grouped streaming deserialization throughput"@en ;
+    dcterms:description "A benchmark task measuring the througput of deserializing a grouped RDF stream (that is, a stream in which the elements are either RDF graphs or RDF datasets) from a byte stream to memory."@en ;
+
+    # Authors
+    dcterms:creator [
+        foaf:name "Piotr Sowiński" ;
+        foaf:nick "Ostrzyciel" ;
+        foaf:homepage <https://github.com/Ostrzyciel>, <https://orcid.org/0000-0002-2543-9461> ;
+        rbdoc:hasDocWeight 1 ;
+    ]
+.
