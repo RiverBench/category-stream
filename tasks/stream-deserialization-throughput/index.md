@@ -4,7 +4,7 @@ A benchmark task measuring the througput of deserializing a grouped RDF stream (
 
 ### Data
 
-Stream distributions of any dataset in the `stream` category of RiverBench may be used for this task.
+Stream distributions of any dataset in the [`stream` category](../../categories/stream/index.md) of RiverBench may be used for this task.
 
 ### Workload
 
@@ -29,3 +29,9 @@ There are no results with RiverBench available for this task yet.
 - In the paper about the Jelly streaming protocol, such a benchmark is performed in Section IV.B. The corresponding task in the paper is named "Raw deserialization throughput" and the performance in measured in terms of the number of triples deserialized per second.
     - Sowiński, P., Wasielewska-Michniewska, K., Ganzha, M., & Paprzycki, M. (2022, October). Efficient RDF streaming for the edge-cloud continuum. In 2022 IEEE 8th World Forum on Internet of Things (WF-IoT) (pp. 1-8). IEEE.
     - https://doi.org/10.1109/WF-IoT54382.2022.10152225
+
+
+## See also
+
+- Version of this task for flat RDF streams: [`flat-deserialization-throughput`](../flat-deserialization-throughput/index.md)
+- The inverse task: [`stream-serialization-throughput`](../stream-serialization-throughput/index.md)
