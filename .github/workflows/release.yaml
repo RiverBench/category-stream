@@ -6,6 +6,8 @@ on:
     tags:
       - "v*"
   workflow_dispatch: {}
+  repository_dispatch:
+    types: [dataset-update]
 
 jobs:
   validate:
