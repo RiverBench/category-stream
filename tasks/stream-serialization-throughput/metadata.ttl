@@ -10,7 +10,7 @@
     dcterms:conformsTo <https://w3id.org/riverbench/schema/metadata> ;
     dcterms:identifier "stream-serialization-throughput" ;
     dcterms:title "Grouped RDF stream serialization throughput"@en ;
-    dcterms:description "A benchmark task measuring the througput of serializing a grouped RDF stream (that is, a stream in which the elements are either RDF graphs or RDF datasets)."@en ;
+    dcterms:description "A benchmark task measuring the throughput of serializing a grouped RDF stream (that is, a stream in which the elements are either RDF graphs or RDF datasets)."@en ;
 
     # Authors
     dcterms:creator [
