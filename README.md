@@ -14,9 +14,32 @@
 
 
 *This README is a snapshot of documentation for the latest development version of the benchmark category.
-Full documentation for all versions can be found [on the website](https://w3id.org/riverbench/categories/stream/dev).*
+Full documentation for all versions can be found [on the website](https://w3id.org/riverbench/v/dev/categories/stream).*
 
 Benchmark category of generic tasks involving grouped RDF streams (elements are either RDF graphs or RDF datasets). This includes streaming throughput and latency benchmarks.
+## Benchmark tasks
+
+Below you will find a list of tasks that are part of this benchmark category.
+
+!!! tip
+
+    Benchmark tasks and profiles in RiverBench have machine-readable metadata in RDF.
+    You can find RDF download links for each profile on its documentation page.
+    You can also use the [HTTP content negotiation mechanism](../../documentation/metadata.md).
+
+--8<-- "docs/categories/stream/task_table.md"
+
+## Benchmark profiles
+
+Profiles in RiverBench group datasets that share common technical characteristics.
+For example, whether the datasets consist of triples or quads, if they use RDF-star, etc.
+The profiles are intended to be used in benchmarks to compare the performance of different systems on a well-defined collection of datasets.
+
+See the **[quick start guide](../../documentation/using.md)** for more information on how to use the profiles, tasks, and datasets.
+
+--8<-- "docs/categories/stream/profile_table.md"
+
+
 
 ## Metadata
 
@@ -31,34 +54,34 @@ Benchmark category of generic tasks involving grouped RDF streams (elements are 
 ### Content
 
 - **<abbr title="For benchmark categories this property indicates tasks that belong to the category.">Has benchmark task</abbr>**: 
-    - [stream-compression (dev)](https://w3id.org/riverbench/tasks/stream-compression/dev)
-    - [stream-deserialization-throughput (dev)](https://w3id.org/riverbench/tasks/stream-deserialization-throughput/dev)
-    - [stream-latency-end-to-end (dev)](https://w3id.org/riverbench/tasks/stream-latency-end-to-end/dev)
-    - [stream-serialization-throughput (dev)](https://w3id.org/riverbench/tasks/stream-serialization-throughput/dev)
-    - [stream-throughput-end-to-end (dev)](https://w3id.org/riverbench/tasks/stream-throughput-end-to-end/dev)
+    - [stream-compression (dev)](https://w3id.org/riverbench/v/dev/tasks/stream-compression)
+    - [stream-deserialization-throughput (dev)](https://w3id.org/riverbench/v/dev/tasks/stream-deserialization-throughput)
+    - [stream-latency-end-to-end (dev)](https://w3id.org/riverbench/v/dev/tasks/stream-latency-end-to-end)
+    - [stream-serialization-throughput (dev)](https://w3id.org/riverbench/v/dev/tasks/stream-serialization-throughput)
+    - [stream-throughput-end-to-end (dev)](https://w3id.org/riverbench/v/dev/tasks/stream-throughput-end-to-end)
 - **<abbr title="For benchmark categories this property indicates profiles that belong to the category.">Has benchmark profile</abbr>**: 
-    - [stream-datasets (dev)](https://w3id.org/riverbench/profiles/stream-datasets/dev)
-    - [stream-datasets-nonstandard (dev)](https://w3id.org/riverbench/profiles/stream-datasets-nonstandard/dev)
-    - [stream-datasets-rdfstar (dev)](https://w3id.org/riverbench/profiles/stream-datasets-rdfstar/dev)
-    - [stream-datasets-rdfstar-nonstandard (dev)](https://w3id.org/riverbench/profiles/stream-datasets-rdfstar-nonstandard/dev)
-    - [stream-graphs (dev)](https://w3id.org/riverbench/profiles/stream-graphs/dev)
-    - [stream-graphs-nonstandard (dev)](https://w3id.org/riverbench/profiles/stream-graphs-nonstandard/dev)
-    - [stream-graphs-rdfstar (dev)](https://w3id.org/riverbench/profiles/stream-graphs-rdfstar/dev)
-    - [stream-graphs-rdfstar-nonstandard (dev)](https://w3id.org/riverbench/profiles/stream-graphs-rdfstar-nonstandard/dev)
-    - [stream-mixed (dev)](https://w3id.org/riverbench/profiles/stream-mixed/dev)
-    - [stream-mixed-nonstandard (dev)](https://w3id.org/riverbench/profiles/stream-mixed-nonstandard/dev)
-    - [stream-mixed-rdfstar (dev)](https://w3id.org/riverbench/profiles/stream-mixed-rdfstar/dev)
-    - [stream-mixed-rdfstar-nonstandard (dev)](https://w3id.org/riverbench/profiles/stream-mixed-rdfstar-nonstandard/dev)
-    - [stream-named-graphs (dev)](https://w3id.org/riverbench/profiles/stream-named-graphs/dev)
-    - [stream-named-graphs-nonstandard (dev)](https://w3id.org/riverbench/profiles/stream-named-graphs-nonstandard/dev)
-    - [stream-named-graphs-rdfstar (dev)](https://w3id.org/riverbench/profiles/stream-named-graphs-rdfstar/dev)
-    - [stream-named-graphs-rdfstar-nonstandard (dev)](https://w3id.org/riverbench/profiles/stream-named-graphs-rdfstar-nonstandard/dev)
-    - [stream-subject-graphs (dev)](https://w3id.org/riverbench/profiles/stream-subject-graphs/dev)
-    - [stream-subject-graphs-nonstandard (dev)](https://w3id.org/riverbench/profiles/stream-subject-graphs-nonstandard/dev)
-    - [stream-subject-graphs-rdfstar (dev)](https://w3id.org/riverbench/profiles/stream-subject-graphs-rdfstar/dev)
-    - [stream-subject-graphs-rdfstar-nonstandard (dev)](https://w3id.org/riverbench/profiles/stream-subject-graphs-rdfstar-nonstandard/dev)
-    - [stream-ts-named-graphs (dev)](https://w3id.org/riverbench/profiles/stream-ts-named-graphs/dev)
-    - [stream-ts-named-graphs-nonstandard (dev)](https://w3id.org/riverbench/profiles/stream-ts-named-graphs-nonstandard/dev)
-    - [stream-ts-named-graphs-rdfstar (dev)](https://w3id.org/riverbench/profiles/stream-ts-named-graphs-rdfstar/dev)
-    - [stream-ts-named-graphs-rdfstar-nonstandard (dev)](https://w3id.org/riverbench/profiles/stream-ts-named-graphs-rdfstar-nonstandard/dev)
+    - [stream-datasets (dev)](https://w3id.org/riverbench/v/dev/profiles/stream-datasets)
+    - [stream-datasets-nonstandard (dev)](https://w3id.org/riverbench/v/dev/profiles/stream-datasets-nonstandard)
+    - [stream-datasets-rdfstar (dev)](https://w3id.org/riverbench/v/dev/profiles/stream-datasets-rdfstar)
+    - [stream-datasets-rdfstar-nonstandard (dev)](https://w3id.org/riverbench/v/dev/profiles/stream-datasets-rdfstar-nonstandard)
+    - [stream-graphs (dev)](https://w3id.org/riverbench/v/dev/profiles/stream-graphs)
+    - [stream-graphs-nonstandard (dev)](https://w3id.org/riverbench/v/dev/profiles/stream-graphs-nonstandard)
+    - [stream-graphs-rdfstar (dev)](https://w3id.org/riverbench/v/dev/profiles/stream-graphs-rdfstar)
+    - [stream-graphs-rdfstar-nonstandard (dev)](https://w3id.org/riverbench/v/dev/profiles/stream-graphs-rdfstar-nonstandard)
+    - [stream-mixed (dev)](https://w3id.org/riverbench/v/dev/profiles/stream-mixed)
+    - [stream-mixed-nonstandard (dev)](https://w3id.org/riverbench/v/dev/profiles/stream-mixed-nonstandard)
+    - [stream-mixed-rdfstar (dev)](https://w3id.org/riverbench/v/dev/profiles/stream-mixed-rdfstar)
+    - [stream-mixed-rdfstar-nonstandard (dev)](https://w3id.org/riverbench/v/dev/profiles/stream-mixed-rdfstar-nonstandard)
+    - [stream-named-graphs (dev)](https://w3id.org/riverbench/v/dev/profiles/stream-named-graphs)
+    - [stream-named-graphs-nonstandard (dev)](https://w3id.org/riverbench/v/dev/profiles/stream-named-graphs-nonstandard)
+    - [stream-named-graphs-rdfstar (dev)](https://w3id.org/riverbench/v/dev/profiles/stream-named-graphs-rdfstar)
+    - [stream-named-graphs-rdfstar-nonstandard (dev)](https://w3id.org/riverbench/v/dev/profiles/stream-named-graphs-rdfstar-nonstandard)
+    - [stream-subject-graphs (dev)](https://w3id.org/riverbench/v/dev/profiles/stream-subject-graphs)
+    - [stream-subject-graphs-nonstandard (dev)](https://w3id.org/riverbench/v/dev/profiles/stream-subject-graphs-nonstandard)
+    - [stream-subject-graphs-rdfstar (dev)](https://w3id.org/riverbench/v/dev/profiles/stream-subject-graphs-rdfstar)
+    - [stream-subject-graphs-rdfstar-nonstandard (dev)](https://w3id.org/riverbench/v/dev/profiles/stream-subject-graphs-rdfstar-nonstandard)
+    - [stream-ts-named-graphs (dev)](https://w3id.org/riverbench/v/dev/profiles/stream-ts-named-graphs)
+    - [stream-ts-named-graphs-nonstandard (dev)](https://w3id.org/riverbench/v/dev/profiles/stream-ts-named-graphs-nonstandard)
+    - [stream-ts-named-graphs-rdfstar (dev)](https://w3id.org/riverbench/v/dev/profiles/stream-ts-named-graphs-rdfstar)
+    - [stream-ts-named-graphs-rdfstar-nonstandard (dev)](https://w3id.org/riverbench/v/dev/profiles/stream-ts-named-graphs-rdfstar-nonstandard)
 
