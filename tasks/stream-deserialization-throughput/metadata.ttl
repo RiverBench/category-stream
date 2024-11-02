@@ -9,7 +9,7 @@
     a rb:Task ;
     dcterms:conformsTo <https://w3id.org/riverbench/schema/metadata> ;
     dcterms:identifier "stream-deserialization-throughput" ;
-    dcterms:title "Grouped streaming deserialization throughput"@en ;
+    dcterms:title "Grouped RDF stream deserialization throughput"@en ;
     dcterms:description "A benchmark task measuring the throughput of deserializing a grouped RDF stream (that is, a stream in which the elements are either RDF graphs or RDF datasets) from a byte stream to memory."@en ;
 
     # Authors

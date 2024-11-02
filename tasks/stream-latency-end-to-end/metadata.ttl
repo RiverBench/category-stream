@@ -9,7 +9,7 @@
     a rb:Task ;
     dcterms:conformsTo <https://w3id.org/riverbench/schema/metadata> ;
     dcterms:identifier "stream-latency-end-to-end" ;
-    dcterms:title "End-to-end streaming latency"@en ;
+    dcterms:title "End-to-end RDF streaming latency"@en ;
     dcterms:description "A benchmark task measuring the latency of streaming elements in a grouped RDF stream over the network, including serialization, network communication, and deserialization."@en ;
 
     # Authors

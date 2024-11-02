@@ -9,7 +9,7 @@
     a rb:Task ;
     dcterms:conformsTo <https://w3id.org/riverbench/schema/metadata> ;
     dcterms:identifier "stream-throughput-end-to-end" ;
-    dcterms:title "End-to-end streaming throughput"@en ;
+    dcterms:title "End-to-end RDF streaming throughput"@en ;
     dcterms:description "A benchmark task measuring the throughput of streaming elements in a grouped RDF stream over the network, including serialization, network communication, and deserialization."@en ;
 
     # Authors
